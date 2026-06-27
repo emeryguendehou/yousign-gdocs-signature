@@ -1,0 +1,18 @@
+# clasp (Google Apps Script CLI)
+# .clasprc.json contient un jeton d'authentification : ne jamais le committer.
+.clasprc.json
+.clasp.json
+
+# Dépendances Node (développement local via clasp)
+node_modules/
+
+# Secrets et variables d'environnement
+.env
+.env.*
+*.key
+credentials.json
+service-account.json
+
+# Système
+.DS_Store
+Thumbs.db
